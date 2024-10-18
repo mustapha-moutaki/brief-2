@@ -22,20 +22,24 @@ header {
 }
 header nav {
   width: 90%;
-  height: 3.25px;
+  /* height: 3.25px; */
+  height: 0.203rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: rgb(255, 255, 255);
-  padding: 20px 10px;
+  /* padding: 20px 10px; */
+  padding: 1.25rem 0.625rem; 
 }
 header nav ul {
   display: flex;
   list-style: none;
   text-transform: capitalize;
-  padding: 0px 10px;
-  margin-right: 40px;
-  gap: 10px;
+  /* padding: 0px 10px; */
+  padding: 0rem 0.625rem;
+  /* margin-right: 40px; */
+  margin-right: 2.5rem;
+  gap: 0.625rem;
 }
 header nav ul li {
   border-radius: 12px;
@@ -773,7 +777,7 @@ footer .footer-content {
 }
 .contact-card .black-contact-side {
   width: 50%;
-  background-color: black;
+  background-color:#0a66c2;
   height: 100%;
   color: wheat;
   padding: 0px 30px;
@@ -805,8 +809,9 @@ footer .footer-content {
   width: 50%;
   background-color: rgb(255, 255, 255);
   height: 100%;
-  box-shadow: 0px 0px 10px 1px rgb(0, 0, 0);
+  /* box-shadow: 0px 0px 10px 1px #0a66c2; */
   color: #3f3849;
+  border: .5px solid rgba(11, 11, 11, 0.274);
   border-radius: 0px 20px 20px 0px;
   padding: 30px;
   display: flex;
@@ -832,7 +837,7 @@ footer .footer-content {
   right: 30px;
   border-radius: 7px;
   border: none;
-  background-color: black;
+  background-color: #0a66c2;
   color: white;
   font-family: "poppins";
   text-transform: capitalize;
