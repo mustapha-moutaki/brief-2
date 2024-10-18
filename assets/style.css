@@ -33,7 +33,6 @@ header nav ul {
   display: flex;
   list-style: none;
   text-transform: capitalize;
-
   padding: 0px 10px;
   margin-right: 40px;
   gap: 10px;
@@ -70,8 +69,8 @@ header ul li:hover {
   background-color: #1daeff;
   border-radius: 12px;
 }
-header nav ul li .active-btn{
-    font-weight: 700;
+header nav ul li .active-btn {
+  font-weight: 700;
 }
 .hero {
   width: 100%;
@@ -1140,7 +1139,7 @@ fieldset {
   padding: 50px;
 }
 
-.container .login-card form a{
+.container .login-card form a {
   text-decoration: none;
   color: #000000;
 
@@ -1190,9 +1189,9 @@ label {
   margin-left: 10px;
   color: rgb(0, 0, 0);
 }
-.container .login-card form .login-with span:hover{
-    background-color: #0992e2;
-    color: white;
+.container .login-card form .login-with span:hover {
+  background-color: #0992e2;
+  color: white;
 }
 .container .login-card form input[type="submit"] {
   margin-left: 50%;
@@ -1201,10 +1200,10 @@ label {
   background-color: #0992e2;
   border: none;
   border-radius: 12px;
-  transition: .5s;
+  transition: 0.5s;
 }
-.container .login-card form input[type="submit"]:hover{
-    box-shadow: 0px 0px 10px 5px rgba(43, 59, 235, 0.362);
+.container .login-card form input[type="submit"]:hover {
+  box-shadow: 0px 0px 10px 5px rgba(43, 59, 235, 0.362);
 }
 .container .login-card .or {
   position: relative;
