@@ -141,6 +141,7 @@ header nav ul li .active-btn {
 .section-main-content span {
   padding: 7px 10px;
   border-radius: 7px;
+  color: #000000;
 }
 .section-main-content .spann:hover {
   padding: 7px 10px;
@@ -192,14 +193,13 @@ header nav ul li .active-btn {
 }
 .section-main-content .down-content .card-infos i {
   font-size: 20px;
-  color: #000000a0;
+  color: #000000;
 }
 .section-main-content .down-content .card-infos .search-bar {
   width: 50px;
   height: 50px;
   background-color: #1daeff;
   display: flex;
-  /* text-align: center; */
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -404,12 +404,12 @@ header nav ul li .active-btn {
 .added-main .bottom-main .text .subtxt {
   display: flex;
   justify-content: space-between;
-  color: #8f90a6;
+  color: #000000;
   font-size: 12px;
   align-items: center;
 }
 .added-main .bottom-main .text .subtxt span {
-  background-color: #8f90a6;
+  background-color: blue;
   padding: 5px 10px;
   border-radius: 10px;
   width: 100px;
@@ -494,7 +494,7 @@ footer .footer-content {
   font-family: "poppins";
   letter-spacing: 2px;
   font-size: 10px;
-  color: #8f90a6;
+  color: #000000;
 }
 .social-media {
   display: flex;
@@ -529,7 +529,7 @@ footer .footer-content {
 .footer-content .right-side p {
   font-family: "poppins";
   margin-bottom: 30px;
-  color: #8f90a6;
+  color: #000000;
 }
 .right-side input[type="email"] {
   border-radius: 12px;
@@ -1228,3 +1228,4 @@ label {
   font-family: "poppins";
   margin-bottom: 30px;
 }
+
